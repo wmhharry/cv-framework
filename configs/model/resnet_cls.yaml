@@ -1,0 +1,6 @@
+architechture: "resnet50_cls"
+backbone: "resnet50"
+pretrained: num_workers
+in_channels: 3
+num_classes: 2
+dropout_rate: 0.2

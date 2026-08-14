@@ -1,0 +1,11 @@
+name: "GlaS_Cls"
+task: "classification"
+root_dir: "./data/processed/GlaS"
+csv_path: "./data/processed/GlaS/Grade.csv"  # 標註檔路徑
+num_classes: 2
+class_mapping:
+  "benign": 0
+  "malignant": 1
+image_size: [224, 224]
+batch_size: 16
+num_workers: 4

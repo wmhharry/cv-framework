@@ -1,0 +1,11 @@
+seed: 42
+device: "cuda:0"
+epochs: 30
+learning_rate: 1e-4
+weight_decay: 1e-4
+amp: false # 自動混合精度 (FP16)
+
+dataset:
+  $ref: "configs/dataset/glas_cls.yaml"
+model:
+  $ref: "configs/model/resnet50_cls.yaml"
